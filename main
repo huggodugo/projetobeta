@@ -1,0 +1,26 @@
+//variáveis globais
+var bola
+
+
+//pré-carregamento
+function preload(){
+
+
+}
+
+//criando objetos e suas propriedades
+function setup() {
+  createCanvas(400,800);
+  bola = createSprite(200,200,20,20);
+  
+
+}
+
+
+function draw() {
+  background(0,0,0);
+
+  
+
+  drawSprites();
+}
